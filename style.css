@@ -1,0 +1,52 @@
+.faq-section {
+  display: block;
+  margin-bottom: 20px; /* 각 div를 아래로 분리할 여백을 조절합니다. */
+  border: 1px solid #CCCCCC; /* 나뉜 div 간 경계선을 설정합니다. */
+  padding: 10px; /* 내부 여백을 추가합니다. */
+  border-radius: 0.5rem;
+}
+
+.question {
+  background-color: rgba(1, 1, 1, 0.7);
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.question-text {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.answer-text {
+  display: none;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.question-text .question-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.minus-btn {
+  display: none;
+}
+
+.show-text .answer-text{
+  display: block;
+}
+
+.show-text .plus-btn{
+  display: none;
+}
+
+.show-text .minus-btn{
+  display: inline;
+}
